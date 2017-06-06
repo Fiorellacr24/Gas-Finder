@@ -6,6 +6,6 @@ const Header = (update) => {
     
     header.append(title);
     header.append(Search());
-
+    
     return header;
 }

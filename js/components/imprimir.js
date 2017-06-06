@@ -1,12 +1,29 @@
 'use strict';
 
-const Stations = (datos) => {
-    const stations = $("<div class='station'></div>");
+const stationItem = (data) => {
+    const parent = $("<div class='station'></div>");
     const row = $("<div class='row'>")
     const col = $("<div class='col s12'>")
-    const inputfield = $("<div class='input-field col s12'>");
-    const icono = $("<span><i class='fa fa-search'></i><span>");
-    const input = $("<input type='text' id='autocomplete-input' class='autocomplete' placeholder='Ingresa tu distrito a buscar'>");
+    const nombre = $("<h4>"+ data.name +"</h4>");
+    const direccion = $("<p>"+ data.address +"</p>");
+    const distrito = $("<p>"+ data.district +"</p>");
+    const iconmap = $("<span><i class='fa fa-map'></i></span>");
+    
+    row.append(col);
+    col.append(nombre);
+    col.append(direccion);
+    col.append(distrito);
+    col.append(iconmap);
+    parent.append(row);
+    
+    return parent;
+}
 
-    return stations;
+const Station = () => {
+    const stationContainer = $('<div class="station-container"></div>');
+    state.stations.forEach((data)=>{
+        stationContainer.append(stationItem(data));
+    });
+    
+    return stationContainer;
 }
