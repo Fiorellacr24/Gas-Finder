@@ -1,0 +1,44 @@
+* {
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+}
+
+header {
+    color: #fff;
+    font-size: 18px;
+    line-height: 56px;
+    padding-left: 16px;
+    background-color: #F44336;
+}
+
+header .fa-chevron-left {
+    margin-right: 16px;
+}
+.search{
+    background-color: #F44336;
+}
+.search .input-field input[type=text]{
+    background-color: white;
+    width: 80%;
+    color: black;
+    padding-left: 40px;
+}
+.search .fa-search{
+    font-size: 25px;
+    color: black;
+    position: absolute;
+    left: 10px;
+    top: 15px;
+}
+/*header .input-field span{
+    padding: 8px;
+    background-color: white;
+}*/
+.search .row .col{
+    padding: 0;
+}
+.search .input-field{
+    position: relative;
+}
