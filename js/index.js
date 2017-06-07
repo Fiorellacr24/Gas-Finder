@@ -4,6 +4,11 @@ const render = (root) => {
     root.empty();
     const wrapper = $('<div class="wrapper"></div>');
     wrapper.append(Header(_ => render(root)));
+    /*if (state.selectedStation == null) {
+        wrapper.append(Search( _ => {
+            render(root);
+        }));
+    }*/
     root.append(wrapper);
     
     wrapper.append(Section(_ => render(root)));
