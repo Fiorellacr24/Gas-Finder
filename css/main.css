@@ -57,6 +57,7 @@ section .station-container .station span{
 section .station-container .station span i{
     font-size: 20px;
     color: #5a5a5a;
+	cursor: pointer;
 }
 section .station-container .station .row .col{
     position: relative;

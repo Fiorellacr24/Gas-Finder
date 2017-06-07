@@ -1,6 +1,6 @@
 'use strict';
 
-const stationItem = (data) => {
+const stationItem = (data, update) => {
     const parent = $("<div class='station'></div>");
     const row = $("<div class='row'>")
     const col = $("<div class='col s12'>")
