@@ -14,7 +14,7 @@ const Search = (update) => {
     inputfield.append(icono);
     inputfield.append(input);
     parent.append(row);
-    
+    parent.append(stationfilter);
 
     input.on('keyup',(e)=>{
         if (input.val() != "") {

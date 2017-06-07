@@ -42,23 +42,23 @@ header .fa-chevron-left {
     position: relative;
 }
 /* Section */
-section .station-container{
+.station-container{
     background-color: rgba(128, 128, 128, 0.44);
     padding: 5px;
 }
-section .station-container .station{
+.station-container .station{
     border-bottom: 10px solid white;
 }
-section .station-container .station span{
+.station-container .station span{
     position: absolute;
     right: 5px;
     top: 65px;
 }
-section .station-container .station span i{
+.station-container .station span i{
     font-size: 20px;
     color: #5a5a5a;
 	cursor: pointer;
 }
-section .station-container .station .row .col{
+.station-container .station .row .col{
     position: relative;
 }
