@@ -52,7 +52,7 @@ header .fa-chevron-left {
 .station-container .station span{
     position: absolute;
     right: 5px;
-    top: 65px;
+    top: 40px;
 }
 .station-container .station span i{
     font-size: 20px;
